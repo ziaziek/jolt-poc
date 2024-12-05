@@ -1,0 +1,19 @@
+ {
+    "Rating": {
+      "primary": {
+        "value": 3,
+        "max": 5
+      },
+      "foo": 56,
+      "quality": {
+        "value": 3,
+        "max": 7,
+        "hidden": "true"
+      },
+      "sharpness": {
+        "value": 6,
+        "max": 10,
+        "hidden": "false"
+      }
+    }
+  }

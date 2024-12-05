@@ -1,0 +1,13 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "rating": {
+        "quality": {
+          "value": "SecondaryRatings.quality.Value",
+          "max": "SecondaryRatings.quality.RatingRange"
+        }
+      }
+    }
+  }
+]

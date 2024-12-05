@@ -1,0 +1,5 @@
+{
+  "rating-*" : "ONE",
+
+  "rating-multi-*" : "MANY"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pncomp</groupId>
+    <artifactId>jolt-poc</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <latest.jolt.version>0.1.6</latest.jolt.version>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.bazaarvoice.jolt/jolt-core -->
+        <dependency>
+            <groupId>com.bazaarvoice.jolt</groupId>
+            <artifactId>jolt-core</artifactId>
+            <version>${latest.jolt.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.bazaarvoice.jolt/json-utils -->
+        <dependency>
+            <groupId>com.bazaarvoice.jolt</groupId>
+            <artifactId>json-utils</artifactId>
+            <version>${latest.jolt.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

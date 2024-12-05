@@ -1,0 +1,10 @@
+{
+  "zeta": 8,
+  "list": [
+    "aa", "ff", "cc",
+    {"id":  1, "name":  "Betha"},
+    {"id":  3, "name":  "Gamma"},
+    {"id": 2, "name": "Alpha"}
+  ],
+  "theta": 15
+}

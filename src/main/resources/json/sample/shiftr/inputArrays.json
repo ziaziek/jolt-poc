@@ -1,0 +1,10 @@
+{
+  "Photos": ["AAA.jpg", "BBB.jpg"],
+  "photo-1": {
+    "photo-1-id": "534534634",
+    "photo-1-url": "http://bob.com/0001/534534634/photo.jpg"
+  },
+  "foo": 3,
+  "tuna": "marlin",
+  "seabass": "bar"
+}

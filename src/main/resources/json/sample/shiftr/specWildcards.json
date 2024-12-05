@@ -1,0 +1,27 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "rating|Rating": {
+        "foo": {
+          "$": "foo.key",
+          "@": "foo.value"
+        },
+        "primary": {
+          "value": "Rating",
+          "max": "RatingRange"
+        },
+        "*": {
+          "value": "SecondaryRatings.&1.Value",
+          "max": "SecondaryRatings.&1.Range",
+          "$" : "SecondaryRatings.&1.Id",
+          "hidden": {
+            "true": {
+              "#disabled": "SecondaryRatings.&3.hidden"
+            }
+          }
+        }
+      }
+    }
+  }
+]

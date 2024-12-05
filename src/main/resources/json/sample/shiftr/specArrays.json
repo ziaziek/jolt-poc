@@ -1,0 +1,18 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "Photos": {
+        "1": "photo-&-url"
+      },
+      "photo-1": {
+        "photo-*-id": "Photos[&(0,1)].Id",
+        "photo-*-url": "Photos[&(0,1)].Url"
+      },
+      "foo": ["bar", "baz"],
+      "tuna": "bat",
+      "seabass": "bat"
+    }
+  }
+]
+
